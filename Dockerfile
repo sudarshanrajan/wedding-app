@@ -17,4 +17,4 @@ WORKDIR /app
 COPY . /app
 
 # Streamlit entrypoint
-CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.enableCORS=false", "--server.headless=true"]
+CMD ["streamlit", "run", "app/main.py"]

@@ -1,0 +1,18 @@
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+port = 8501
+debug = false
+
+[client]
+showErrorDetails = "none"
+toolbarMode = "viewer"
+
+[theme]
+base = "light"
+primaryColor = "#d4a373"         # Soft wedding gold
+backgroundColor = "#fff8f4"      # Creamy white
+secondaryBackgroundColor = "#ffffff"  # True white for forms/cards
+textColor = "#4a4a4a"            # Dark gray for readability
+font = "serif"                   # Elegant font (Georgia-like)
