@@ -9,7 +9,7 @@ app = FastAPI()
 DATA_SERVER_API_KEY = os.getenv("DATA_SERVER_API_KEY")
 
 
-@app.get("/data")
+@app.get("/")
 def get_data(authorization: str = Header(None)):
     if authorization != f"Bearer {DATA_SERVER_API_KEY}":
         raise HTTPException(status_code=401, detail="Unauthorized")
