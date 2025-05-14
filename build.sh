@@ -18,6 +18,7 @@ echo "🚀 Running container..."
 docker run -d \
   --name $APP_NAME \
   --network host \
+  --env-file .env \
   -v "$PWD/data:/app/data" \
   -v "$PWD/static:/app/static" \
   $APP_NAME
