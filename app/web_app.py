@@ -1,11 +1,9 @@
-# wedding_rsvp_app/web_app.py
+# app/web_app.py
 
 import streamlit as st
 import datetime
-import os
 import csv
 from pathlib import Path
-from urllib.parse import urlencode
 import base64
 
 # Config
