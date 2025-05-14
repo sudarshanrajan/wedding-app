@@ -17,5 +17,8 @@ COPY . /app
 
 RUN chmod +x app/entrypoint.sh
 
-# Streamlit entrypoint
+EXPOSE 8501
+EXPOSE 8000
+
+# entrypoint
 CMD ["app/entrypoint.sh"]
