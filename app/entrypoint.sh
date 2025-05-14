@@ -1,5 +1,12 @@
 #!/bin/bash
-echo "hello from entrypoint!"
-uvicorn app.data_server:app --host 0.0.0.0 &
 
-streamlit run app/web_app.py
+echo "Starting FastAPI..."
+uvicorn app.data_server:app --port 8000 &
+
+echo "Starting Streamlit..."
+streamlit run app/web_app.py \
+    --server.port 8501 \
+    --server.baseUrlPath app &
+
+echo "Starting Nginx..."
+nginx -g "daemon off;"

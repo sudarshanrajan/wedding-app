@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 # Install dependencies
-RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y build-essential nginx && rm -rf /var/lib/apt/lists/*
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -15,10 +15,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 WORKDIR /app
 COPY . /app
 
+# Copy nginx config
+COPY nginx.conf /etc/nginx/nginx.conf
+
 RUN chmod +x app/entrypoint.sh
 
-EXPOSE 8501
-EXPOSE 8000
+EXPOSE 80
 
 # entrypoint
 CMD ["app/entrypoint.sh"]
