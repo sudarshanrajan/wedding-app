@@ -1,18 +1,30 @@
 # app/web_app.py
-
+import os
+from reportlab.lib.utils import ImageReader
 import streamlit as st
 import datetime
 import csv
 from pathlib import Path
 import base64
+import qrcode
+from reportlab.pdfgen import canvas
+from PyPDF2 import PdfReader, PdfWriter
+from io import BytesIO
+from PIL import Image
 
 # Config
 USERS_CSV = Path("data/users.csv")
 INVITE_FILE = Path("static/Anjana x Sudarshan.pdf")
-EVENT_DATE = datetime.datetime(2025, 8, 31, 12, 0, 0)
+EVENT_DATE = datetime.datetime(2025, 8, 30, 23, 59, 59)
 ADDRESS = "Farmhouse Collective, Nirmala Farm, Post, Virgonagar, Nimbekaipura, Bengaluru, Karnataka 560049"
 MAPS_LINK = "https://maps.app.goo.gl/3ztqDExBFyaZ9Uer9"
 TITLE = "Anjana x Sudarshan"
+
+INVITE_FILE_QR_X = int(os.getenv("INVITE_FILE_QR_X"))
+INVITE_FILE_QR_Y = int(os.getenv("INVITE_FILE_QR_Y"))
+INVITE_FILE_QR_SIZE = int(os.getenv("INVITE_FILE_QR_SIZE"))
+INVITE_FILE_QR_PAGE = int(os.getenv("INVITE_FILE_QR_PAGE"))
+RAILWAY_PUBLIC_DOMAIN = os.getenv("RAILWAY_PUBLIC_DOMAIN")
 
 CSV_KEYS = {
     "name": "Party",
@@ -148,6 +160,62 @@ def save_rsvp_to_csv(user_id, rsvp_data):
         writer.writerows(rows)
 
 
+# Generate QR image
+def generate_qr_image(url: str) -> BytesIO:
+    qr_img = qrcode.make(url)
+    buffer = BytesIO()
+    qr_img.save(buffer, format="PNG")
+    buffer.seek(0)
+    return buffer
+
+
+# Create QR overlay
+def create_qr_overlay(qr_image: BytesIO, coords) -> BytesIO:
+    x, y, w, h = coords
+    overlay = BytesIO()
+    c = canvas.Canvas(overlay)
+
+    qr_pil_image = Image.open(qr_image)
+    qr_image_reader = ImageReader(qr_pil_image)
+    c.drawImage(qr_image_reader, x, y, width=w, height=h)
+
+    c.showPage()
+    c.save()
+    overlay.seek(0)
+    return overlay
+
+
+# Overlay QR on base PDF
+def overlay_qr_on_pdf(base_pdf: bytes, overlay_pdf: BytesIO, page_num: int) -> BytesIO:
+    base_pdf_stream = BytesIO(base_pdf)  # <-- wrap bytes in BytesIO
+    reader = PdfReader(base_pdf_stream)
+    overlay_reader = PdfReader(overlay_pdf)
+    writer = PdfWriter()
+
+    for i, page in enumerate(reader.pages):
+        if i == page_num-1:
+            page.merge_page(overlay_reader.pages[0])
+        writer.add_page(page)
+
+    result = BytesIO()
+    writer.write(result)
+    result.seek(0)
+    return result
+
+
+def prepare_invite(invite_for_user_id: str):
+    url = "https://%s/app/?user=%s" % (RAILWAY_PUBLIC_DOMAIN, invite_for_user_id)
+    qr = generate_qr_image(url)
+
+    # Step 2: Create overlay for QR at specific position on A4 page
+    coords = (INVITE_FILE_QR_X, INVITE_FILE_QR_Y, INVITE_FILE_QR_SIZE, INVITE_FILE_QR_SIZE)
+    overlay = create_qr_overlay(qr, coords)
+
+    # Step 3: Read base invitation from disk and overlay the QR
+    base_pdf_bytes = INVITE_FILE.read_bytes()
+    return overlay_qr_on_pdf(base_pdf_bytes, overlay, page_num=INVITE_FILE_QR_PAGE)
+
+
 # App logic
 query_params = st.query_params.to_dict()
 user_id = query_params.get("user", None)
@@ -172,7 +240,8 @@ if rsvp:
     st.title("💌 You're Invited!")
     st.markdown("Thank you for your RSVP.")
 
-    st.download_button("📄 Download Invitation", INVITE_FILE.read_bytes(), file_name="Anjana x Sudarshan.pdf")
+    prepared_invite = prepare_invite(invite_for_user_id=user_id)
+    st.download_button("📄 Download Invitation", prepared_invite, file_name="Anjana x Sudarshan.pdf")
 
     st.subheader("Your RSVP")
     st.markdown("### Your RSVP Details")
