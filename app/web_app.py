@@ -11,20 +11,42 @@ from reportlab.pdfgen import canvas
 from PyPDF2 import PdfReader, PdfWriter
 from io import BytesIO
 from PIL import Image
+import urllib.parse
+from zoneinfo import ZoneInfo
 
 # Config
 USERS_CSV = Path("data/users.csv")
-INVITE_FILE = Path("static/Anjana x Sudarshan.pdf")
-EVENT_DATE = datetime.datetime(2025, 8, 30, 23, 59, 59)
-ADDRESS = "Farmhouse Collective, Nirmala Farm, Post, Virgonagar, Nimbekaipura, Bengaluru, Karnataka 560049"
-MAPS_LINK = "https://maps.app.goo.gl/3ztqDExBFyaZ9Uer9"
-TITLE = "Anjana x Sudarshan"
 
+EVENT_TITLE = os.getenv("EVENT_TITLE")
+EVENT_DESCRIPTION = os.getenv("EVENT_DESCRIPTION")
+EVENT_ADDRESS = os.getenv("EVENT_ADDRESS")
+EVENT_DATE = os.getenv("EVENT_DATE")
+EVENT_TIME = os.getenv("EVENT_TIME")
+EVENT_DURATION_HRS = int(os.getenv("EVENT_DURATION_HRS"))
+EVENT_MAPS_ID = os.getenv("EVENT_MAPS_ID")
 INVITE_FILE_QR_X = int(os.getenv("INVITE_FILE_QR_X"))
 INVITE_FILE_QR_Y = int(os.getenv("INVITE_FILE_QR_Y"))
 INVITE_FILE_QR_SIZE = int(os.getenv("INVITE_FILE_QR_SIZE"))
 INVITE_FILE_QR_PAGE = int(os.getenv("INVITE_FILE_QR_PAGE"))
 RAILWAY_PUBLIC_DOMAIN = os.getenv("RAILWAY_PUBLIC_DOMAIN")
+CALENDAR_START_TIME = (datetime.datetime.strptime("%sT%s" % (EVENT_DATE, EVENT_TIME), "%Y-%m-%dT%H:%M").
+                       replace(tzinfo=ZoneInfo("Asia/Kolkata")))
+CALENDAR_END_TIME = CALENDAR_START_TIME + datetime.timedelta(hours=EVENT_DURATION_HRS)
+INVITE_FILE = Path("static/%s.pdf" % EVENT_TITLE)
+MAPS_LINK = "https://maps.app.goo.gl/%s" % EVENT_MAPS_ID
+
+# Construct the calendar link
+calendar_base_url = "https://www.google.com/calendar/render?action=TEMPLATE"
+params = {
+    "text": EVENT_TITLE,
+    "dates": f"{CALENDAR_START_TIME.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}"
+             f"/{CALENDAR_END_TIME.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
+    "details": "%s. Join us at %s" % (EVENT_DESCRIPTION, EVENT_ADDRESS),
+    "location": MAPS_LINK,
+    "sf": "true",
+    "output": "xml"
+}
+CALENDAR_LINK = f"{calendar_base_url}&{urllib.parse.urlencode(params)}"
 
 CSV_KEYS = {
     "name": "Party",
@@ -35,7 +57,7 @@ CSV_KEYS = {
     "group_activities": "Group Activities"
 }
 
-st.set_page_config(page_title=TITLE, layout="centered")
+st.set_page_config(page_title=EVENT_TITLE, layout="centered")
 
 
 def set_bg_from_local(image_path):
@@ -228,8 +250,8 @@ if not user_id or user_id not in users:
 user = users[user_id]
 rsvp = load_rsvp_from_csv(user_id)
 
-now = datetime.datetime.now()
-event_over = now > EVENT_DATE
+now = datetime.datetime.now(tz=ZoneInfo("Asia/Kolkata"))
+event_over = now > CALENDAR_END_TIME
 
 if event_over:
     st.title("🎉 Wedding Gallery")
@@ -241,10 +263,9 @@ if rsvp:
     st.markdown("Thank you for your RSVP.")
 
     prepared_invite = prepare_invite(invite_for_user_id=user_id)
-    st.download_button("📄 Download Invitation", prepared_invite, file_name="Anjana x Sudarshan.pdf")
+    st.download_button("📄 Download Invitation", prepared_invite, file_name="%s.pdf" % EVENT_TITLE)
 
     st.subheader("Your RSVP")
-    st.markdown("### Your RSVP Details")
     st.write(f"**Name:** {rsvp['name']}")
     st.write(f"**WhatsApp No:** {rsvp['whatsapp']}")
     st.write(f"**Additional Guests:** {rsvp['additional_guests']}")
@@ -257,8 +278,13 @@ if rsvp:
                                    ['additional_guests', 'food_preference', 'wants_to_speak', 'group_activities']})
         st.rerun()
 
+    st.subheader("Timings")
+    st.markdown(f"**Date:** {datetime.datetime.strftime(CALENDAR_START_TIME, format='%B %d, %Y')}")
+    st.markdown(f"**Time:** {datetime.datetime.strftime(CALENDAR_START_TIME, format='%-I %p (%Z)')}")
+    st.link_button("📅 Add to Calendar", CALENDAR_LINK)
+
     st.subheader("Venue")
-    st.markdown(f"**Address:** {ADDRESS}")
+    st.markdown(f"**Address:** {EVENT_ADDRESS}")
     st.link_button("📍 Get Directions", MAPS_LINK)
     st.stop()
 
