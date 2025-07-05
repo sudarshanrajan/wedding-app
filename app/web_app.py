@@ -185,9 +185,21 @@ def save_rsvp_to_csv(user_id, rsvp_data):
 
 # Generate QR image
 def generate_qr_image(url: str) -> BytesIO:
-    qr_img = qrcode.make(url)
+    # Create a QRCode object with more control
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_H,
+        border=0,
+    )
+    qr.add_data(url)
+    qr.make(fit=True)
+
+    # Make QR image in black and white
+    img = qr.make_image(fill_color="black", back_color="white").convert("RGBA")
+
+    # Save to buffer
     buffer = BytesIO()
-    qr_img.save(buffer, format="PNG")
+    img.save(buffer, format="PNG")
     buffer.seek(0)
     return buffer
 
