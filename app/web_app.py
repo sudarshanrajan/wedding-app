@@ -13,6 +13,7 @@ from io import BytesIO
 from PIL import Image
 import urllib.parse
 from zoneinfo import ZoneInfo
+import fitz
 
 # Config
 USERS_CSV = Path("data/users.csv")
@@ -238,6 +239,30 @@ def overlay_qr_on_pdf(base_pdf: bytes, overlay_pdf: BytesIO, page_num: int) -> B
     return result
 
 
+# modify link for specific user
+def modify_link(input_pdf: BytesIO, new_url: str) -> BytesIO:
+    input_pdf.seek(0)
+    doc = fitz.open(stream=input_pdf, filetype="pdf")
+
+    for page in doc:
+        links = page.get_links()
+        for link in links:
+            if "uri" in link:
+                rect = fitz.Rect(link["from"])
+                page.delete_link(link)
+                page.insert_link({
+                    "kind": fitz.LINK_URI,
+                    "from": rect,
+                    "uri": new_url
+                })
+
+    output_pdf = BytesIO()
+    doc.save(output_pdf)
+    doc.close()
+    output_pdf.seek(0)
+    return output_pdf
+
+
 def prepare_invite(invite_for_user_id: str):
     url = "https://%s/app/?user=%s" % (RAILWAY_PUBLIC_DOMAIN, invite_for_user_id)
     qr = generate_qr_image(url)
@@ -248,7 +273,9 @@ def prepare_invite(invite_for_user_id: str):
 
     # Step 3: Read base invitation from disk and overlay the QR
     base_pdf_bytes = INVITE_FILE.read_bytes()
-    return overlay_qr_on_pdf(base_pdf_bytes, overlay, page_num=INVITE_FILE_QR_PAGE)
+    invite_with_qr = overlay_qr_on_pdf(base_pdf_bytes, overlay, page_num=INVITE_FILE_QR_PAGE)
+    invite_with_updated_link = modify_link(invite_with_qr, new_url=url)
+    return invite_with_updated_link
 
 
 # App logic
