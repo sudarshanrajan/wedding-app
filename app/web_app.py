@@ -78,7 +78,7 @@ def set_bg_from_local(image_path):
                 background-image: url("data:image/jpg;base64,{encoded}");
                 background-size: contain;
                 background-position: center top;
-                background-repeat: repeat-y;
+                background-repeat: repeat-x;
                 background-attachment: fixed;
                 z-index: -2;
             }}
