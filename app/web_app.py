@@ -313,7 +313,7 @@ if rsvp:
     st.write(f"**Wants to Speak?** {'Yes' if rsvp['wants_to_speak'] else 'No'}")
     st.write(f"**Participating in Group Activities?** {'Yes' if rsvp['group_activities'] else 'No'}")
 
-    if st.button("✏️ Edit your RSVP"):
+    if st.button("🗑️ Delete your RSVP"):
         save_rsvp_to_csv(user_id, {k: "" for k in
                                    ['additional_guests', 'food_preference', 'wants_to_speak', 'group_activities']})
         st.rerun()
