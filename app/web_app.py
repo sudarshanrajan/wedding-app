@@ -343,9 +343,8 @@ with st.form("rsvp_form"):
     food = st.selectbox("Food Preference", ["Vegetarian", "Non-Vegetarian"])
     speak = st.checkbox("Would you like to say a few words at the event?")
     group = st.checkbox("Would you like to participate in group activities?")
-    st.markdown("Group activities may include dancing/singing/acting "
-                "but rest assured there will be ample guidance in the "
-                "form of choreography as well as practice")
+    st.markdown("Group activities may include music/dancing/singing "
+                "but rest assured there will be ample guidance and practice")
     submitted = st.form_submit_button("Submit RSVP")
 
     if submitted:
