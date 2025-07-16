@@ -1,149 +1,144 @@
-User Id,Party,Size (Max),Expected RSVPs,Cohort,Eliminate ,WhatsApp No,RSVP Link,Invite Button,Invite Sent,Additional Guests,Food Preference,Wants to Speak,Group Activities
-000002,KG Meenakshi,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000002,WhatsApp Invite,,,,,
-000003,Aparajita,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000003,WhatsApp Invite,,,,,
-000004,Sudha,2,2,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000004,WhatsApp Invite,,,,,
-000005,Meera,2,2,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000005,WhatsApp Invite,,,,,
-000006,Kaveri,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000006,WhatsApp Invite,,,,,
-000007,CS Rajalakshmi,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000007,WhatsApp Invite,,,,,
-000008,Viji(1),1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000008,WhatsApp Invite,,,,,
-000009,Viji(2),1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000009,WhatsApp Invite,,,,,
-00000A,Rukmani,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00000A,WhatsApp Invite,,,,,
-00000B,Lalitha Sharma,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00000B,WhatsApp Invite,,,,,
-00000C,Usha,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00000C,WhatsApp Invite,,,,,
-00000D,Pushpa,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00000D,WhatsApp Invite,,,,,
-00000E,Sushmita,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00000E,WhatsApp Invite,,,,,
-00000F,Tahmina,4,2,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=00000F,WhatsApp Invite,,,,,
-000010,Pooja,3,3,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000010,WhatsApp Invite,,,,,
-000011,Shalabh,2,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000011,WhatsApp Invite,,,,,
-000012,Krithi,2,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000012,WhatsApp Invite,,,,,
-000013,Srabana,1,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000013,WhatsApp Invite,,,,,
-000014,Divya,2,2,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000014,WhatsApp Invite,,,,,
-000015,Ivan,2,0,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000015,WhatsApp Invite,,,,,
-000016,Ankita,3,3,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000016,WhatsApp Invite,,,,,
-000017,Megha,2,2,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000017,WhatsApp Invite,,,,,
-000018,Aanchal ,1,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000018,WhatsApp Invite,,,,,
-000019,Savithri,3,2,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000019,WhatsApp Invite,,,,,
-00001A,Himanshu,1,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=00001A,WhatsApp Invite,,,,,
-00001B,Sneha,1,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=00001B,WhatsApp Invite,,,,,
-00001C,Livia,1,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=00001C,WhatsApp Invite,,,,,
-00001D,Anshu,1,1,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=00001D,WhatsApp Invite,,,,,
-00001E,Ann,3,0,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=00001E,WhatsApp Invite,,,,,
-00001F,Nishant,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00001F,WhatsApp Invite,,,,,
-000020,Nuzhath,3,0,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000020,WhatsApp Invite,,,,,
-000021,Prathyusha ,2,0,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000021,WhatsApp Invite,,,,,
-000022,Sarayu,2,0,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000022,WhatsApp Invite,,,,,
-000023,Azzam,2,0,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000023,WhatsApp Invite,,,,,
-000024,Varun,1,0,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000024,WhatsApp Invite,,,,,
-000025,Ashwin ,8,6,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000025,WhatsApp Invite,,,,,
-000026,Anu,5,2,Friends-Elizabeth,x,,https://wedding-app-production-6b91.up.railway.app/?user=000026,WhatsApp Invite,,,,,
-000027,Vineeta,4,4,Friends-Elizabeth,,,https://wedding-app-production-6b91.up.railway.app/?user=000027,WhatsApp Invite,,,,,
-000028,Stephen,5,5,Friends-Elizabeth,x,,https://wedding-app-production-6b91.up.railway.app/?user=000028,WhatsApp Invite,,,,,
-000029,Jomon,4,4,Friends-Elizabeth,x,,https://wedding-app-production-6b91.up.railway.app/?user=000029,WhatsApp Invite,,,,,
-00002A,Deepam,4,4,Friends-Elizabeth,x,,https://wedding-app-production-6b91.up.railway.app/?user=00002A,WhatsApp Invite,,,,,
-00002B,Rekha,2,2,Friends-Elizabeth,,,https://wedding-app-production-6b91.up.railway.app/?user=00002B,WhatsApp Invite,,,,,
-00002C,Rajan PK,4,4,Friends-George,,,https://wedding-app-production-6b91.up.railway.app/?user=00002C,WhatsApp Invite,,,,,
-00002D,Rajan V,3,3,Friends-George,,,https://wedding-app-production-6b91.up.railway.app/?user=00002D,WhatsApp Invite,,,,,
-00002E,Thankachan,6,2,Friends-George,x,,https://wedding-app-production-6b91.up.railway.app/?user=00002E,WhatsApp Invite,,,,,
-00002F,Dasan,3,3,Friends-George,,,https://wedding-app-production-6b91.up.railway.app/?user=00002F,WhatsApp Invite,,,,,
-000030,Yohanan,3,0,Friends-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000030,WhatsApp Invite,,,,,
-000031,Antony,4,2,Friends-George,x,,https://wedding-app-production-6b91.up.railway.app/?user=000031,WhatsApp Invite,,,,,
-000032,Manoj,4,2,Friends-George,x,,https://wedding-app-production-6b91.up.railway.app/?user=000032,WhatsApp Invite,,,,,
-000033,Sinu,4,2,Friends-George,x,,https://wedding-app-production-6b91.up.railway.app/?user=000033,WhatsApp Invite,,,,,
-000034,Shahu,5,5,Friends-George,x,,https://wedding-app-production-6b91.up.railway.app/?user=000034,WhatsApp Invite,,,,,
-000035,Jose,2,2,Friends-George,x,,https://wedding-app-production-6b91.up.railway.app/?user=000035,WhatsApp Invite,,,,,
-000036,Manu,2,1,Friends-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000036,WhatsApp Invite,,,,,
-000037,Roshan,3,2,Friends-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000037,WhatsApp Invite,,,,,
-000038,Raji Delhi,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000038,WhatsApp Invite,,,,,
-000039,Amita,1,1,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000039,WhatsApp Invite,,,,,
-00003A,Vanaja,2,2,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00003A,WhatsApp Invite,,,,,
-00003B,Uma,2,2,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00003B,WhatsApp Invite,,,,,
-00003C,Savithri,2,2,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00003C,WhatsApp Invite,,,,,
-00003D,Indu Ittina,2,2,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00003D,WhatsApp Invite,,,,,
-00003E,Chitra Ittina,3,3,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00003E,WhatsApp Invite,,,,,
-00003F,Jayashree,2,2,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=00003F,WhatsApp Invite,,,,,
-000040,Maheshkumari,1,0,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000040,WhatsApp Invite,,,,,
-000041,Ramanika,1,0,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000041,WhatsApp Invite,,,,,
-000042,Neeraj,1,0,Friends-Gouri,x,,https://wedding-app-production-6b91.up.railway.app/?user=000042,WhatsApp Invite,,,,,
-000043,Jayasimha,4,2,Friends-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000043,WhatsApp Invite,,,,,
-000044,Ramesh HAL,2,2,Friends-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000044,WhatsApp Invite,,,,,
-000045,Nivedha,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000045,WhatsApp Invite,,,,,
-000046,Kaira,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000046,WhatsApp Invite,,,,,
-000047,Chaitanya,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000047,WhatsApp Invite,,,,,
-000048,Saakshi,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000048,WhatsApp Invite,,,,,
-000049,Bibhuti,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000049,WhatsApp Invite,,,,,
-00004A,Vishak,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00004A,WhatsApp Invite,,,,,
-00004B,Shravan,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00004B,WhatsApp Invite,,,,,
-00004C,Ashutosh,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00004C,WhatsApp Invite,,,,,
-00004D,Nipun Sachdeva,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00004D,WhatsApp Invite,,,,,
-00004E,Chhetri,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00004E,WhatsApp Invite,,,,,
-00004F,Debby,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00004F,WhatsApp Invite,,,,,
-000050,Garg,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000050,WhatsApp Invite,,,,,
-000051,Adheesh,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000051,WhatsApp Invite,,,,,
-000052,Snehil,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000052,WhatsApp Invite,,,,,
-000053,Joyce,3,3,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000053,WhatsApp Invite,,,,,
-000054,Kunal,2,2,Friends-Anjana,,,https://wedding-app-production-6b91.up.railway.app/?user=000054,WhatsApp Invite,,,,,
-000055,Vedant,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000055,WhatsApp Invite,,,,,
-000056,Saumye,2,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000056,WhatsApp Invite,,,,,
-000057,Rishabh,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000057,WhatsApp Invite,,,,,
-000058,Sachchit,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000058,WhatsApp Invite,,,,,
-000059,Suhas,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000059,WhatsApp Invite,,,,,
-00005A,Ben,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00005A,WhatsApp Invite,,,,,
-00005B,Varush,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00005B,WhatsApp Invite,,,,,
-00005C,Rahul,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00005C,WhatsApp Invite,,,,,
-00005D,Praveen,3,3,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00005D,WhatsApp Invite,,,,,
-00005E,Anju,4,4,Host,,9686791800,https://wedding-app-production-6b91.up.railway.app/?user=00005E,WhatsApp Invite,,,,,
-00005F,Mariamma,4,4,Relatives-Elizabeth,,,https://wedding-app-production-6b91.up.railway.app/?user=00005F,WhatsApp Invite,,,,,
-000060,Achamma,1,0,Relatives-Elizabeth,,,https://wedding-app-production-6b91.up.railway.app/?user=000060,WhatsApp Invite,,,,,
-000061,Anish,2,1,Relatives-Elizabeth,,,https://wedding-app-production-6b91.up.railway.app/?user=000061,WhatsApp Invite,,,,,
-000062,Sunil,4,4,Relatives-Elizabeth,,,https://wedding-app-production-6b91.up.railway.app/?user=000062,WhatsApp Invite,,,,,
-000063,Mathew,4,4,Relatives-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000063,WhatsApp Invite,,,,,
-000064,Kochu,2,1,Relatives-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000064,WhatsApp Invite,,,,,
-000065,Sibil,2,2,Relatives-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000065,WhatsApp Invite,,,,,
-000066,Sinu,4,0,Relatives-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000066,WhatsApp Invite,,,,,
-000067,Raju,1,0,Relatives-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000067,WhatsApp Invite,,,,,
-000068,Sophie,5,3,Relatives-George,,,https://wedding-app-production-6b91.up.railway.app/?user=000068,WhatsApp Invite,,,,,
-000069,Ashwin,1,1,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000069,WhatsApp Invite,,,,,
-00006A,Anand,4,4,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00006A,WhatsApp Invite,,,,,
-00006B,Vijayam,1,1,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00006B,WhatsApp Invite,,,,,
-00006C,Dhanam,6,2,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00006C,WhatsApp Invite,,,,,
-00006D,Raji,4,4,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00006D,WhatsApp Invite,,,,,
-00006E,Lalitha,3,3,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00006E,WhatsApp Invite,,,,,
-00006F,Beti,4,4,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00006F,WhatsApp Invite,,,,,
-000070,Lalli Kailas,2,2,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000070,WhatsApp Invite,,,,,
-000071,Lalli Kumar,4,2,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000071,WhatsApp Invite,,,,,
-000072,Anand Balan,4,3,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000072,WhatsApp Invite,,,,,
-000073,Murali,6,6,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000073,WhatsApp Invite,,,,,
-000074,Sud,10,8,Host,,9035117600,https://wedding-app-production-6b91.up.railway.app/?user=000074,WhatsApp Invite,,,,,
-000075,SriKumar,3,2,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000075,WhatsApp Invite,,,,,
-000076,Chandran Anna,1,1,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000076,WhatsApp Invite,,,,,
-000077,Vidya Sriram,2,0,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000077,WhatsApp Invite,,,,,
-000078,Jaya Kalyan,2,2,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000078,WhatsApp Invite,,,,,
-000079,Lalitha Ernakulam,2,2,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=000079,WhatsApp Invite,,,,,
-00007A,Ramu Anna,1,0,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00007A,WhatsApp Invite,,,,,
-00007B,Saroja Ahmedabad,2,2,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00007B,WhatsApp Invite,,,,,
-00007C,Thangam,2,0,Relatives-Gouri,,,https://wedding-app-production-6b91.up.railway.app/?user=00007C,WhatsApp Invite,,,,,
-00007D,"Chitra Nani, Suresh",5,5,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=00007D,WhatsApp Invite,,,,,
-00007E,Preeti,2,2,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=00007E,WhatsApp Invite,,,,,
-00007F,Munna,4,2,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=00007F,WhatsApp Invite,,,,,
-000080,Deepa,4,4,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000080,WhatsApp Invite,,,,,
-000081,"Varsha, Vivek",5,3,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000081,WhatsApp Invite,,,,,
-000082,Meena,2,2,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000082,WhatsApp Invite,,,,,
-000083,Anand Kothagiri,2,2,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000083,WhatsApp Invite,,,,,
-000084,Deepak,4,0,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000084,WhatsApp Invite,,,,,
-000085,Deepika,4,4,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000085,WhatsApp Invite,,,,,
-000086,Durga,1,1,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000086,WhatsApp Invite,,,,,
-000087,Geetha CBE,2,0,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000087,WhatsApp Invite,,,,,
-000088,Kalyani Athai,3,2,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000088,WhatsApp Invite,,,,,
-000089,Krishnan (Poona),4,4,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=000089,WhatsApp Invite,,,,,
-00008A,"Sweta, Shyla, Bhumika",5,5,Relatives-Rajan,,,https://wedding-app-production-6b91.up.railway.app/?user=00008A,WhatsApp Invite,,,,,
-00008B,Shreya,2,0,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00008B,WhatsApp Invite,,,,,
-00008C,Harshita,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00008C,WhatsApp Invite,,,,,
-00008D,Samidha,2,0,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00008D,WhatsApp Invite,,,,,
-00008E,Daksh,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00008E,WhatsApp Invite,,,,,
-00008F,Akash,2,2,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=00008F,WhatsApp Invite,,,,,
-000090,Joy,1,1,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000090,WhatsApp Invite,,,,,
-000091,Nikhilesh,2,0,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000091,WhatsApp Invite,,,,,
-000092,Raoul,1,0,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000092,WhatsApp Invite,,,,,
-000093,Nikhil Shankar,1,0,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000093,WhatsApp Invite,,,,,
-000094,Disha,1,0,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000094,WhatsApp Invite,,,,,
-000095,Michelle,1,0,Friends-Sudarshan,,,https://wedding-app-production-6b91.up.railway.app/?user=000095,WhatsApp Invite,,,,,
+User Id,Party,Size (Max),Expected RSVPs,Cohort,Eliminate ,WhatsApp No,RSVP Link,Invite Button,Invite Sent,Additional Guests,Food Preference,Wants to Speak,Group Activities,RSVPs,Speakers,Performers
+000002,Aanchal ,1,1,Friends-Anjana,,8169186703,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,FALSE,TRUE,1,0,1
+000003,Aman,1,1,Friends-Anjana,,9886143551,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000004,Ankita,3,3,Friends-Anjana,,9953438645,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000005,Ann,3,2,Friends-Anjana,,7259723270,Do RSVP,WhatsApp Invite,TRUE,1,Non-Vegetarian,FALSE,TRUE,2,0,1
+000006,Anshu,1,1,Friends-Anjana,,919674335077,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000007,Archana,2,2,Friends-Anjana,,918860724199,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000008,Ashwin ,5,5,Friends-Anjana,,8296619476,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000009,CI team,6,2,Friends-Anjana,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00000A,Divya,2,2,Friends-Anjana,,7259300968,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00000B,Himanshu,1,1,Friends-Anjana,,9820283013,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,FALSE,1,0,0
+00000C,Ivan,2,0,Friends-Anjana,,9843944473,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00000D,Krithi,4,2,Friends-Anjana,,9741157596,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00000E,Kunal,2,2,Friends-Anjana,,9739939444,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00000F,Livia,1,1,Friends-Anjana,,9049989978,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,TRUE,1,0,1
+000010,Mathew,1,1,Friends-Anjana,,8129090028,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,FALSE,1,0,0
+000011,Nishant,1,1,Friends-Sudarshan,,917709004027,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,FALSE,TRUE,1,0,1
+000012,Megha,2,2,Friends-Anjana,,9163173137,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000013,Monish,1,1,Friends-Anjana,,7093003489,Do RSVP,WhatsApp Invite,TRUE,2,Non-Vegetarian,FALSE,FALSE,3,0,0
+000014,Namit,1,0,Friends-Anjana,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000015,Jose,3,3,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000016,Pooja,3,3,Friends-Anjana,,9731457611,Do RSVP,WhatsApp Invite,TRUE,1,Vegetarian,FALSE,FALSE,2,0,0
+000017,Anu,5,5,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000018,Vineeta,4,4,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000019,Stephen,6,6,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00001A,Jomon,4,4,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00001B,Deepam,4,4,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00001C,Rekha,2,2,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00001D,Rajan PK,4,4,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00001E,Rajan V,3,3,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00001F,Thankachan,7,7,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000020,Dasan,3,3,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000021,Yohanan,3,0,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000022,Antony,4,2,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000023,Manoj,5,5,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000024,Sinu,4,4,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000025,Bhaskar,3,3,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000026,Manu,2,2,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000027,Tomy,3,3,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000028,Jayasimha,4,2,Friends-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000029,Ramesh HAL,2,2,Friends-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00002A,Nivedha,1,1,Friends-Sudarshan,,918884797943,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,FALSE,TRUE,1,0,1
+00002B,Kaira,1,1,Friends-Sudarshan,,919570110250,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00002C,Chaitanya,1,1,Friends-Sudarshan,,919986938469,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,FALSE,1,0,0
+00002D,Saakshi,1,1,Friends-Sudarshan,,919764994165,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,TRUE,1,0,1
+00002E,Bibhuti,1,1,Friends-Sudarshan,,917625097300,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00002F,Vishak,1,1,Friends-Sudarshan,,916360164922,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000030,Shravan,2,2,Friends-Sudarshan,,919886859683,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000031,Ashutosh,2,2,Friends-Sudarshan,,919879402722,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000032,Nipun,2,2,Friends-Sudarshan,,918238384323,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000033,Chhetri,1,1,Friends-Sudarshan,,918095337808,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000034,Debby,1,1,Friends-Sudarshan,,6588941609,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,TRUE,TRUE,1,1,1
+000035,Garg,1,1,Friends-Sudarshan,,919686609192,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000036,Adheesh,1,1,Friends-Sudarshan,,14168485390,Do RSVP,WhatsApp Invite,TRUE,1,Non-Vegetarian,TRUE,TRUE,2,1,1
+000037,Snehil,1,1,Friends-Sudarshan,,919886441993,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000038,Joyce,3,3,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000039,Prathyusha ,2,0,Friends-Anjana,,9612366666,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00003A,Vedant,2,2,Friends-Sudarshan,,919945332470,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00003B,Saumye,2,1,Friends-Sudarshan,,919590332323,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00003C,Rishabh,2,2,Friends-Sudarshan,,919540907351,Do RSVP,WhatsApp Invite,TRUE,1,Non-Vegetarian,TRUE,TRUE,2,1,1
+00003D,Sachchit,1,1,Friends-Sudarshan,,919850879900,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,TRUE,TRUE,1,1,1
+00003E,Suhas,2,2,Friends-Sudarshan,,919008899239,Do RSVP,WhatsApp Invite,TRUE,1,Vegetarian,FALSE,FALSE,2,0,0
+00003F,Ben,2,1,Friends-Sudarshan,,4915731390439,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000040,Varush,2,2,Friends-Sudarshan,,918884997675,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000041,Rahul,2,2,Friends-Sudarshan,,919769546679,Do RSVP,WhatsApp Invite,TRUE,1,Non-Vegetarian,FALSE,FALSE,2,0,0
+000042,Praveen,3,3,Friends-Sudarshan,,919899493315,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,FALSE,1,0,0
+000043,Anju,4,4,Host,,919686791800,Do RSVP,WhatsApp Invite,TRUE,3,Non-Vegetarian,TRUE,TRUE,4,1,1
+000044,Mariamma,4,4,Relatives-Elizabeth,,,Do RSVP,WhatsApp Invite,TRUE,3,Non-Vegetarian,FALSE,FALSE,4,0,0
+000045,Achamma,1,1,Relatives-Elizabeth,,,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,FALSE,FALSE,1,0,0
+000046,Anish,2,2,Relatives-Elizabeth,,,Do RSVP,WhatsApp Invite,TRUE,1,Non-Vegetarian,FALSE,FALSE,2,0,0
+000047,Sunil,5,5,Relatives-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000048,Mathew,4,2,Relatives-George,,,Do RSVP,WhatsApp Invite,TRUE,1,Non-Vegetarian,FALSE,FALSE,2,0,0
+000049,Kochu,2,2,Relatives-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00004A,Sibil,2,0,Relatives-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00004B,Sinu,4,0,Relatives-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00004C,Raju,1,1,Relatives-George,,,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,FALSE,FALSE,1,0,0
+00004D,Sophie,5,3,Relatives-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00004E,Anand,4,4,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00004F,Vijayam,1,1,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000050,Dhanam,0,0,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000051,Raji,4,4,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000052,Lalitha,3,3,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000053,Beti,4,4,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000054,Lalli Kailas,2,2,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000055,Lalli Kumar,2,2,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000056,Anand Balan,4,3,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000057,Murali,9,6,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000058,Sud,10,8,Host,,919035117600,Do RSVP,WhatsApp Invite,TRUE,7,Vegetarian,TRUE,TRUE,8,1,1
+000059,SriKumar,3,2,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00005A,Chandran Anna,1,1,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00005B,Vidya Sriram,2,2,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00005C,Jaya Kalyan,4,4,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00005D,Lalitha Ernakulam,4,4,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00005E,Ramu Anna,1,1,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00005F,Saroja Ahmedabad,2,2,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000060,Thangam,2,2,Relatives-Gouri,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000061,"Chitra Nani, Suresh",5,5,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000062,Preeti,2,2,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000063,Munna,4,2,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000064,Deepa,4,4,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000065,"Varsha, Vivek",5,3,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000066,Meena,2,2,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000067,Anand Kothagiri,2,2,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000068,Deepak,4,0,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000069,Deepika,4,4,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00006A,Durga,1,1,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00006B,Geetha CBE,2,0,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00006C,Kalyani Athai,3,2,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00006D,Krishnan (Poona),4,4,Relatives-Rajan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00006E,Shreya,2,0,Friends-Sudarshan,,34662528339,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00006F,Harshita,2,2,Friends-Sudarshan,,919873571875,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000070,Samidha,2,0,Friends-Sudarshan,,919168384422,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000071,Daksh,1,1,Friends-Sudarshan,,919899446616,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000072,Akash,2,2,Friends-Sudarshan,,917829776539,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000073,Joy,1,1,Friends-Sudarshan,,919168134069,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000074,Nikhilesh,2,0,Friends-Sudarshan,,917899071987,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000075,Raoul,1,0,Friends-Sudarshan,,37251990393,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000076,Nikhil Shankar,1,0,Friends-Sudarshan,,4917624177234,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000077,Disha,1,0,Friends-Sudarshan,,919699933640,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000078,Michelle,1,0,Friends-Sudarshan,,33768510891,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000079,Nimisha,5,5,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00007A,Vinod,1,1,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00007B,Anuradha,3,3,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00007C,Naveen,4,1,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00007D,Tam fam,4,4,Friends-Elizabeth,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00007E,Anu,4,4,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+00007F,Swapna,2,2,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000080,Roshan,3,3,Friends-George,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000081,Sameera,1,1,Friends-Anjana,,9899470971,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000082,Sarthak,3,0,Friends-Anjana,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000083,Savithri,3,3,Friends-Anjana,,7676196287,Do RSVP,WhatsApp Invite,TRUE,1,Vegetarian,FALSE,FALSE,2,0,0
+000084,Shalabh,2,0,Friends-Anjana,,7042056676,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000085,Shimanta,1,1,Friends-Anjana,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000086,Sneha,1,1,Friends-Anjana,,9528313430,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,FALSE,1,0,0
+000087,Srabana,3,1,Friends-Anjana,,9874817603,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000088,Sriyans,1,1,Friends-Anjana,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
+000089,Tahmina,5,2,Friends-Anjana,,918884786351,Do RSVP,WhatsApp Invite,TRUE,0,Vegetarian,FALSE,FALSE,1,0,0
+00008A,Pranav,2,0,Friends-Sudarshan,,919920176259,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00008B,Sumana,1,1,Friends-Sudarshan,,919923278766,Do RSVP,WhatsApp Invite,TRUE,0,Non-Vegetarian,FALSE,TRUE,1,0,1
+00008C,Vivek,2,2,Friends-Anjana,,7899275180,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00008D,Jeenal,2,1,Friends-Sudarshan,,919902548246,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+00008E,Zaib,1,1,Friends-Sudarshan,,919035191125,Do RSVP,WhatsApp Invite,TRUE,1,Non-Vegetarian,TRUE,TRUE,2,1,1
+00008F,Antara,2,0,Friends-Sudarshan,,17326680702,Do RSVP,WhatsApp Invite,TRUE,,,,,0,0,0
+000090,Vaishak,2,0,Friends-Sudarshan,,,Do RSVP,WhatsApp Invite,,,,,,0,0,0
