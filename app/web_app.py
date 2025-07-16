@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 import fitz
 
 # Config
-USERS_CSV = Path("data/users.csv")
+USERS_CSV = Path("/data/users.csv")
 
 EVENT_TITLE = os.getenv("EVENT_TITLE")
 EVENT_DESCRIPTION = os.getenv("EVENT_DESCRIPTION")
