@@ -15,7 +15,7 @@ def get_data(authorization: str = Header(None)):
         raise HTTPException(status_code=401, detail="Unauthorized")
 
     try:
-        df = pd.read_csv("data/users.csv")  # Adjust path if needed
+        df = pd.read_csv("/data/users.csv")
         df = df.replace([np.inf, -np.inf, np.nan], None)
         df[pd.isna(df)] = None
         return df.to_dict(orient="records")
